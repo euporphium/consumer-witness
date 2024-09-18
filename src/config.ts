@@ -127,6 +127,36 @@ export const rcwTemplates = [
 
 export const consumerPagesTemplates = [
   {
+    name: "Salary Calculator",
+    url: "https://www.payscale.com/salary-calculator",
+    filename: "cp-salary-calculator",
+    examples: ["https://www.payscale.com/job-search-engine"],
+  },
+  {
+    name: "Salary Page 'What Am I Worth?'",
+    url: "https://www.payscale.com/salary",
+    filename: "cp-salary",
+    examples: ["https://www.payscale.com/salary"],
+  },
+  {
+    name: "Plans",
+    url: "https://www.payscale.com/plans",
+    filename: "cp-plans",
+    examples: ["https://www.payscale.com/plans"],
+  },
+  {
+    name: "Career Path Planner",
+    url: "https://www.payscale.com/career-path-planner",
+    filename: "cp-career-path-planner",
+    examples: ["https://www.payscale.com/career-path-planner"],
+  },
+  {
+    name: "Job Search Engine",
+    url: "https://www.payscale.com/job-search-engine",
+    filename: "cp-job-search-engine",
+    examples: ["https://www.payscale.com/job-search-engine"],
+  },
+  {
     name: "Legal/Acceptable Use",
     url: "https://www.payscale.com/acceptable-use-policy",
     filename: "cp-legal-acceptable-use",
@@ -143,24 +173,6 @@ export const consumerPagesTemplates = [
     url: "https://www.payscale.com/license-archive",
     filename: "cp-legal-license-archive",
     examples: ["https://www.payscale.com/license-archive"],
-  },
-  {
-    name: "Career Path Planner",
-    url: "https://www.payscale.com/career-path-planner",
-    filename: "cp-career-path-planner",
-    examples: ["https://www.payscale.com/career-path-planner"],
-  },
-  {
-    name: "Job Search Engine",
-    url: "https://www.payscale.com/job-search-engine",
-    filename: "cp-job-search-engine",
-    examples: ["https://www.payscale.com/job-search-engine"],
-  },
-  {
-    name: "Salary Calculator",
-    url: "https://www.payscale.com/salary-calculator",
-    filename: "cp-salary-calculator",
-    examples: ["https://www.payscale.com/job-search-engine"],
   },
 ];
 
