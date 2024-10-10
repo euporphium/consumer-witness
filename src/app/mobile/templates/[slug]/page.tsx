@@ -2,7 +2,7 @@ import { findTemplateBySlug } from "@/config";
 import { notFound } from "next/navigation";
 import FullPageTemplate from "@/components/FullPageTemplate";
 
-export default function DesktopTemplatesPage({
+export default function MobileTemplatesPage({
   params,
 }: {
   params: { slug: string };
@@ -13,5 +13,5 @@ export default function DesktopTemplatesPage({
     return notFound();
   }
 
-  return <FullPageTemplate template={template} />;
+  return <FullPageTemplate template={template} subdirectory="mobile" />;
 }

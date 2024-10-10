@@ -337,3 +337,8 @@ export const allTemplates = [
     templates: dataPackagesTemplates,
   },
 ];
+
+export function findTemplateBySlug(slug: string) {
+  const templatesFlat = allTemplates.flatMap((t) => t.templates);
+  return templatesFlat.find((t) => t.filename === slug);
+}
